@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'guru.qa'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation (
+            'org.junit.jupiter:junit-jupiter:5.8.1',
+            'com.codeborne:selenide:6.11.2',
+            'org.assertj:assertj-core:3.24.2',
+            'com.codeborne:pdf-test:1.8.0',
+            'com.codeborne:xls-test:1.7.0',
+
+    )
+}
+
+test {
+    useJUnitPlatform()
+}
