@@ -1,0 +1,11 @@
+{
+  "name": "Vasia Pupkin",
+  "id": "1231231",
+  "age": 34,
+  "married": false,
+  "address": {
+    "street": "12, Bomzh St.",
+    "city": "Perdolinsk",
+    "country": "Zhoplyandia"
+  }
+}
